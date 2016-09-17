@@ -1,7 +1,7 @@
 <?php
 namespace Magos\Db\TableGateway\Feature;
 
-class SequenceFeature extends Zend\Db\TableGateway\Feature\SequenceFeature
+class SequenceFeature extends \Zend\Db\TableGateway\Feature\SequenceFeature
 {
     /**
      * @var string
