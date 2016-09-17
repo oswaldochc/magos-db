@@ -1,0 +1,30 @@
+{
+	"name": "magosframework/magos-db",
+    "description": " ",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "magos",
+        "db"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Magos\\Db\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "zendframework/zend-db": "^2.7 || ^3.0"
+    },
+    "require-dev": {
+        "zendframework/zend-db": "^2.7 || ^3.0",
+        "phpunit/PHPUnit": "~4.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "MagosTest\\Db\\": "test/"
+        }
+    }
+}
+
